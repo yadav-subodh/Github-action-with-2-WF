@@ -61,10 +61,3 @@ jobs:
 
       - name: Build project
         run: npm run build
-
-      # Example Deployment (customize this block)
-      - name: Deploy to Netlify (example)
-        run: npx netlify deploy --dir=build --prod
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
